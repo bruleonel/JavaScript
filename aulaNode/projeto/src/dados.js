@@ -24,3 +24,5 @@ function excluirProduto(id) {
     delete produtos[id]
     return produto
 }
+
+module.exports = { salvarProduto, getProduto, getProdutos, excluirProduto }
